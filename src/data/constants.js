@@ -9,7 +9,7 @@ export const Bio = {
    "Motivated Full-Stack Developer designing dynamic, user-centric web applications. Proficient in React.js, MongoDB, and MySQL, with a proven ability to enhance application performance and maintain clean, scalable code. Passionate about solving complex problems and delivering impactful digital solutions.",
     github: "https://github.com/vishalbhagat45",
   resume:
-    "",
+    "https://drive.google.com/file/d/1a1l78_nFOopnc27zyjnEJaQ5RUNMsg_3/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/vishal-bhagat-13086927b/",
   insta: "https://www.instagram.com/call_me.bhagat/?hl=en",
   facebook: "https://www.facebook.com/profile.php?id=100076819347842",
@@ -177,7 +177,7 @@ export const education = [
   },
   {
     id: 1,
-    img: "https://lens.usercontent.google.com/image?vsrid=CNCSyezsi5HhNxACGAEiJGU4NDMyYTg2LWQ1N2EtNDY0MS1hMWFiLTc4ZWU3ZmFhZmUwMjij34ims7KNAw&gsessionid=feRwkjnQ0tj9Dc5T0BtIiIYnZdMaGgrsWQFi7kqraKY41SuqU4u06g",
+    img: "https://github.com/user-attachments/assets/22c4dc48-b177-4bff-8632-242cd4136d27",
     school: "Araria Public SChool, Araria,Bihar",
     date: "April 2019 - May 2021",
     grade: "86 %",
@@ -244,6 +244,33 @@ export const projects = [
     category: "web app",
     github: "https://github.com/vishalbhagat45/GrocerEase",
   },
+
+  {
+    id: 11,
+    title: "SmartClassX",
+    date: "June 2025",
+    description:
+      "Developed an interactive smart classroom web platform to enhance digital learning and communication between teachers and students. Integrated features like announcements, file sharing, attendance tracking, and schedule management to streamline classroom activities. Built secure login/register systems with role-based dashboards for students and teachers. Tools/Technologies used: HTML, CSS, JavaScript, Visual Studio Code",
+    image:
+      "https://github.com/user-attachments/assets/b0d3e1a6-1643-4edd-8bfd-1d6d0c653cae",
+    tags: ["HTML", "CSS", "JavaScript", "VS Code"],
+    category: "android app",
+    github: "https://github.com/vishalbhagat45/SmartClassX",
+  },
+
+  {
+    id: 11,
+    title: "NextCart",
+    date: "May 2025",
+    description:
+      "Built a modern and responsive e-commerce website, NextCart, enabling users to browse, filter, and purchase products with a smooth shopping experience. Integrated dynamic product listings, detailed product pages, and an optional cart functionality with seamless navigation. Focused on performance, scalability, and UI/UX using modern frontend tools. Tools/Technologies used: Next.js, React.js, Tailwind CSS, JavaScript, Visual Studio Code",
+    image:
+      "https://github.com/user-attachments/assets/1abbd5a9-0d41-4bde-a118-e86944b5b50e",
+    tags: ["Next.js", "React.js", "Tailwind CSS", "JavaScript", "Visual Studio Code"],
+    category: "android app",
+    github: "https://github.com/vishalbhagat45/NextCart",
+  },
+
   {
     id: 10,
     title: "Todo Web App",
