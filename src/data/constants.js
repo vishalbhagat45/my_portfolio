@@ -9,7 +9,7 @@ export const Bio = {
    "Motivated Full-Stack Developer designing dynamic, user-centric web applications. Proficient in React.js, MongoDB, and MySQL, with a proven ability to enhance application performance and maintain clean, scalable code. Passionate about solving complex problems and delivering impactful digital solutions.",
     github: "https://github.com/vishalbhagat45",
   resume:
-    "https://drive.google.com/file/d/19ctwBswStHh6wX3wb-gZX2n8MEGPhs3-/view?usp=sharing",
+    "",
   linkedin: "https://www.linkedin.com/in/vishal-bhagat-13086927b/",
   insta: "https://www.instagram.com/call_me.bhagat/?hl=en",
   facebook: "https://www.facebook.com/profile.php?id=100076819347842",
@@ -144,9 +144,9 @@ export const experiences = [
     role: "Full Stack Developer ( Remote )",
     company: "Labmentix",
     date: "June 2025 – Present",
-    desc: "I developed a full-featured Bug Tracker web application using the MERN stack, enabling teams to manage projects, report issues, assign tickets, and track progress through a Kanban workflow. I implemented role-based access, drag-and-drop functionality, and real-time features like commenting, filtering, and file uploads to streamline collaboration and issue resolution.",
-
- skills: [
+   desc: "I developed two full-stack web applications using the MERN stack. The first is a Bug Tracker that enables teams to manage projects, report issues, assign tickets, and track progress via a drag-and-drop Kanban board, with role-based access, real-time comments, and file uploads. The second is DocSign, a digital signature platform that allows users to upload PDFs, drag and drop signatures or text, and download signed documents using pdf-lib. It features secure JWT-based authentication, signature auditing, and optional OAuth login for enhanced user access.",
+ 
+skills: [
   "MongoDB",
   "Express.js",
   "React.js",
@@ -156,10 +156,17 @@ export const experiences = [
   "Axios",
   "React Router",
   "react-beautiful-dnd",
+  "pdf-lib",
+  "Multer",
   "REST API",
   "Git",
-  "Visual Studio Code"
+  "Visual Studio Code",
+  "Vite",
+  "Toastify",
+  "Cloudinary",
+  "Facebook OAuth"
 ],
+
 
   },
   
@@ -206,10 +213,27 @@ export const projects = [
   //   github: "",
   //   webapp: "",
   // },
+  {
+  id: 3,
+  title: "DocSign - Digital Signature App",
+  date: "June 2025",
+  description:
+    `Built a full-stack document signing platform inspired by DocuSign, enabling users to upload, preview, sign, and download PDF files securely. Integrated drag-and-drop placement for signature images or custom text using pdf-lib, along with audit trail logging and status tracking. Included JWT-based authentication, role-based access (User/Admin), and optional Facebook login for enhanced user experience. Tools/Technologies used: MongoDB, Express.js, React.js, Node.js, Tailwind CSS, Vite, pdf-lib, JWT, Multer, Axios, Visual Studio Code`,
+  image:
+    "https://github.com/user-attachments/assets/251dfbfa-4031-423e-8551-48f58ae608f6",
+  tags: [
+    "MongoDB", "Express.js", "React.js", "Node.js", "Tailwind CSS", "JWT", 
+    "Axios", "pdf-lib", "React Router", "Multer", "React PDF", "React Draggable", 
+    "REST API", "Vite", "Facebook OAuth", "Git", "Visual Studio Code"
+  ],
+  category: "web app",
+  github: "https://github.com/vishalbhagat45/DocSign",
+},
+
    {
     id: 2,
     title: "Bug-Tracker",
-    date: "june 2025 - Present",
+    date: "june 2025",
     description:
       ` Built a full-featured bug tracking web application with a user-friendly interface, allowing teams to report, assign, and manage software issues efficiently. Developed a role-based system for admins, developers, and managers to control access and track project-specific tickets. Integrated a Kanban board with drag-and-drop support, real-time commenting, filtering, and file uploads. Tools/Technologies used: MongoDB, Express.js, React.js, Node.js, Tailwind CSS, JWT, Axios, Visual Studio Code`,
     image:
