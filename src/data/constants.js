@@ -9,7 +9,7 @@ export const Bio = {
    "Motivated Full-Stack Developer designing dynamic, user-centric web applications. Proficient in React.js, MongoDB, and MySQL, with a proven ability to enhance application performance and maintain clean, scalable code. Passionate about solving complex problems and delivering impactful digital solutions.",
     github: "https://github.com/vishalbhagat45",
   resume:
-    "https://drive.google.com/file/d/1KlpQbsdr4WgAT9xUErPq5BtkambXyabJ/view?usp=sharing",
+    "",
   linkedin: "https://www.linkedin.com/in/vishal-bhagat-13086927b/",
   insta: "https://www.instagram.com/call_me.bhagat/?hl=en",
   facebook: "https://www.facebook.com/profile.php?id=100076819347842",
@@ -179,7 +179,7 @@ export const education = [
     school: "Mizoram University, Mizoram  ",
     date: "Aug 2021 - June 2025",
     grade: "7.85 CGPA",
-    desc: "Bachelor of Technology (B.Tech) in Information Technology from Mizoram University (2021–20245) with a CGPA of 7.85/10. Equipped with strong foundational knowledge in Data Structures, Algorithms, OOPs, DBMS, Operating Systems, and Computer Networks. Passionate about frontend development, with hands-on experience building projects using the (HTML, CSS, React, JavaScript) and collaborating with teams to deliver scalable solutions.",
+    desc: "Bachelor of Technology (B.Tech) in Information Technology from Mizoram University (2021–20245) with a CGPA of 7.94/10. Equipped with strong foundational knowledge in Data Structures, Algorithms, OOPs, DBMS, Operating Systems, and Computer Networks. Passionate about frontend development, with hands-on experience building projects using the (HTML, CSS, React, JavaScript) and collaborating with teams to deliver scalable solutions.",
     degree: "Bachelor of Technology, Information Technology",
   },
   {
