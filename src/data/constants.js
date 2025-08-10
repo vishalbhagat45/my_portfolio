@@ -3,13 +3,14 @@ export const Bio = {
   roles: [
     "Full-Stack Developer",
     "Front End Developer",
+    "Back End Developer",
     "Programmer",
   ],
   description:
    "Motivated Full-Stack Developer designing dynamic, user-centric web applications. Proficient in React.js, MongoDB, and MySQL, with a proven ability to enhance application performance and maintain clean, scalable code. Passionate about solving complex problems and delivering impactful digital solutions.",
     github: "https://github.com/vishalbhagat45",
   resume:
-    "https://drive.google.com/file/d/1eg76aE21uAHDibgIiD-gUTNuofcvxol3/view?usp=sharing",
+    "https://drive.google.com/file/d/1JH9ydJIRqpVqHELy4lwytSjOMg1Fa_GP/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/vishal-bhagat-13086927b/",
   insta: "https://www.instagram.com/call_me.bhagat/?hl=en",
   facebook: "https://www.facebook.com/profile.php?id=100076819347842",
@@ -213,6 +214,22 @@ export const projects = [
   //   github: "",
   //   webapp: "",
   // },
+  {
+  id: 4,
+  title: "Worklio - Freelance Marketplace Platform",
+  date: "August 2025",
+  description:
+    `Developed a full-stack freelance marketplace similar to Fiverr/Upwork, connecting clients and freelancers for posting and applying to jobs, gig purchases, and secure payments. Features include real-time chat using Socket.io, role-based dashboards (Admin, Client, Freelancer), job posting & applications, gig management, reviews & ratings, category-based filtering, and payment integration with Stripe. Implemented JWT-based authentication, protected routes, and responsive design. Tools/Technologies used: MongoDB, Express.js, React.js, Node.js, Tailwind CSS, Socket.io, Stripe API, JWT, Axios, Vite, and React Router.`,
+  image:"/assests/worklio.png",
+
+  tags: [
+    "MongoDB", "Express.js", "React.js", "Node.js", "Tailwind CSS", "Socket.io", 
+    "JWT", "Stripe API", "Axios", "React Router", "REST API", "Vite", "Git", "Visual Studio Code"
+  ],
+  category: "web app",
+  github: "https://github.com/vishalbhagat45/Worklio?tab=readme-ov-file",
+},
+
   {
   id: 3,
   title: "DocSign - Digital Signature App",
