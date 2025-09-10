@@ -10,7 +10,7 @@ export const Bio = {
    "Motivated Full-Stack Developer designing dynamic, user-centric web applications. Proficient in React.js, MongoDB, and MySQL, with a proven ability to enhance application performance and maintain clean, scalable code. Passionate about solving complex problems and delivering impactful digital solutions.",
     github: "https://github.com/vishalbhagat45",
   resume:
-    "https://drive.google.com/file/d/1xrbtxs3bp4p77h-aeRCeHdZNhZuh5wqG/view?usp=sharing",
+    "https://drive.google.com/file/d/1XYMqMA9Oqx3cK3XmjfoI_1X8T4Lv-yRr/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/vishal-bhagat-13086927b/",
   insta: "https://www.instagram.com/call_me.bhagat/?hl=en",
   facebook: "https://www.facebook.com/profile.php?id=100076819347842",
@@ -144,7 +144,7 @@ export const experiences = [
     img: "https://github.com/user-attachments/assets/259e4286-8d92-4c7a-905b-3b0ca6a313ac",
     role: "Full Stack Developer ( Remote )",
     company: "Labmentix",
-    date: "June 2025 – Present",
+    date: "June 2025 – August 2025",
    desc: "I developed two full-stack web applications using the MERN stack. The first is a Bug Tracker that enables teams to manage projects, report issues, assign tickets, and track progress via a drag-and-drop Kanban board, with role-based access, real-time comments, and file uploads. The second is DocSign, a digital signature platform that allows users to upload PDFs, drag and drop signatures or text, and download signed documents using pdf-lib. It features secure JWT-based authentication, signature auditing, and optional OAuth login for enhanced user access.",
  
 skills: [
