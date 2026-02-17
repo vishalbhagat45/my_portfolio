@@ -10,7 +10,7 @@ export const Bio = {
    "Motivated Full-Stack Developer designing dynamic, user-centric web applications. Proficient in React.js, MongoDB, and MySQL, with a proven ability to enhance application performance and maintain clean, scalable code. Passionate about solving complex problems and delivering impactful digital solutions.",
     github: "https://github.com/vishalbhagat45",
   resume:
-    "https://drive.google.com/file/d/1m8quyQVmCaTOrv8CU0jTyVUPiFsrf5y2/view?usp=sharing",
+    "https://drive.google.com/file/d/1YGLThKdQDgwNO5452Svpr_gWlj11Ms28/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/vishal-bhagat-13086927b/",
   insta: "https://www.instagram.com/call_me.bhagat/?hl=en",
   facebook: "https://www.facebook.com/profile.php?id=100076819347842",
@@ -170,6 +170,38 @@ skills: [
 
 
   },
+
+  {
+    id: 1,
+    img: "https://drive.google.com/file/d/1jCBC0hUgze8rsZF-xvRbCO59rEqsRRpG/view?usp=sharing",
+    role: "Web Developer Intern ( Remote )",
+    company: "Amddox Technologies",
+    date: "October 2025 – January 2026",
+   desc:"I worked on developing scalable full-stack web applications using the MERN stack, focusing on enterprise-grade solutions and secure system design. I built a comprehensive Issue Management System that allows teams to create projects, track bugs, assign tasks, manage workflows through a dynamic Kanban board, and implement role-based access control with real-time updates and file handling. Additionally, I developed a Digital Document Signing platform that enables users to upload PDFs, place draggable signatures or text elements, and securely download signed documents. The application incorporates JWT-based authentication, activity logging, audit tracking, and optional OAuth integration to ensure secure and streamlined user access.",
+ 
+skills: [
+  "MongoDB",
+  "Express.js",
+  "React.js",
+  "Node.js",
+  "Tailwind CSS",
+  "JWT",
+  "Axios",
+  "React Router",
+  "react-beautiful-dnd",
+  "pdf-lib",
+  "Multer",
+  "REST API",
+  "Git",
+  "Visual Studio Code",
+  "Vite",
+  "Toastify",
+  "Cloudinary",
+  "Facebook OAuth"
+],
+
+
+  },
   
 ];
 
@@ -214,6 +246,22 @@ export const projects = [
   //   github: "",
   //   webapp: "",
   // },
+
+    {
+  id: 4,
+  title: "JobHunt - Online Job Recruitment Platform",
+  date: "November 2025",
+  description:
+    `I developed a full-stack job recruitment platform using the MERN stack that connects job seekers and recruiters through a streamlined hiring process. The platform enables recruiters to post job listings, manage applications, and track candidate status, while job seekers can create profiles, upload resumes, search and filter jobs, and apply seamlessly. It features role-based dashboards (Admin, Recruiter, Applicant), JWT-based authentication, protected routes, advanced job filtering, and real-time status updates. The application is built with a responsive UI to ensure accessibility across devices and follows RESTful API architecture for efficient data handling and scalability. Tools/Technologies used: MongoDB, Express.js, React.js, Node.js, Tailwind CSS, JWT, Axios, React Router, REST API, and Github.`,
+  image:"/assests/jobhunt.png",
+
+  tags: [
+    "MongoDB", "Express.js", "React.js", "Node.js", "Tailwind CSS", "Socket.io", 
+    "JWT", "Stripe API", "Axios", "React Router", "REST API", "Vite", "Git", "Visual Studio Code"
+  ],
+  category: "web app",
+  github: "https://github.com/vishalbhagat45/JobHunt",
+},
   {
   id: 4,
   title: "Worklio - Freelance Marketplace Platform",
